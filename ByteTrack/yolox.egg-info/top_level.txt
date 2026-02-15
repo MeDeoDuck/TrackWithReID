@@ -1,0 +1,16 @@
+2025_09_02_01_33_07
+2025_09_02_01_35_08
+2025_09_02_01_43_45
+2025_09_02_01_57_12
+2025_09_02_02_00_57
+Amy
+YOLOX_outputs
+assets
+datasets
+deploy
+exps
+pretrained
+tools
+tutorials
+videos
+yolox
