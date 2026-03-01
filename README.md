@@ -22,7 +22,7 @@ python3 tools/demo_track.py video \
   --gallery "$GALLERY_DIR" \
   --path "$VIDEO_PATH" \
   --fp16 --fuse --save_result
-'''
+```
 
 ## License
 This project integrates:
