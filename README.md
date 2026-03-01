@@ -1,10 +1,19 @@
-# MoTwithReID
+# TrackWithReID
+소스 코드: [ByteTrack](https://github.com/FoundationVision/ByteTrack), [TransReID](https://github.com/damo-cv/TransReID)
+Modified from the original ByteTrack and TransReID repository.
 
 ## Introduction
-Tracking AI는 단순히 사람이 어디있는지 bounding box를 친다.
-치매 노인분들을 위해 갤러리에 저장된 사람의 경우 tracking_id 대신에 저장된 이름으로 출력하도록 한다.
-이를 위해 ReID 모델과 Tracking 모델을 멀티모달로 구현했다.
+범죄자가 사람이 많은 장소에 숨었을 경우 추적이 어려워짐
+저장된 외형 정보를 통해 다수 안에서 빠르게 사람을 식별할 수 있도록 추적 모델과 ReID 모델을 통합
 
-## BackBone 모델
-Tracking: ByteTrack
-ReID: TransReID
+## Features
+ByteTrack의 update 함수에 TransReID 사전학습 모델을 추가하여 유사도가 기준치 이상일 경우 기존 id대신 저장된 폴더 명으로 출력
+화면에서 나갔다가 다시 들어와도 동일
+더 자세한 정보는 [블로그]() 참고
+
+## License
+This project integrates:
+- ByteTrack (MIT License)
+- TransReID (MIT License)
+
+All rights belong to the original authors.
