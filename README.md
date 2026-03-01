@@ -24,6 +24,11 @@ python3 tools/demo_track.py video \
   --fp16 --fuse --save_result
 ```
 
+실행 영상
+https://github.com/user-attachments/assets/8c009073-a1bf-49c1-916f-29c99d042b51
+
+
+
 ## License
 This project integrates:
 - ByteTrack (MIT License)
