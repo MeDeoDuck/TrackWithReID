@@ -24,10 +24,7 @@ python3 tools/demo_track.py video \
   --fp16 --fuse --save_result
 ```
 
-실행 영상
-https://github.com/user-attachments/assets/8c009073-a1bf-49c1-916f-29c99d042b51
-
-
+[Demo Video](https://github.com/user-attachments/assets/8f3255cc-1530-424b-ad98-8a0486aab269)
 
 ## License
 This project integrates:
